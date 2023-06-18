@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+}
+
+.judul-website{
+    text-align: center;
+    color: white;
+}
+
+.sub-website{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight:30;
+}
+
+.container{
+    display: flex;
+    margin-top: 150px;
+}
+
+
+
+.type{
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+
+#code{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+}
+
+#submit{
+    background-color: #aba7a7;
+    border-color: #aba7a7;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px; 
+    margin-top:20px;
+    margin-left: 80px;
+}
+
+.border-kiri{
+    flex: 1;
+    margin-left: 300px;
+    margin-right: 5px;
+}
+
+.border-kanan{
+    background-color: #aba7a7;
+    border-radius: 20px;
+    flex: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 300px;
+    margin-left: -50px;
+    padding-top: 10px;
+}
+
+.textHasil{
+    font-size: 25px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+#output{
+    font-size: 20px;
+    text-align: center;
+    color: white
+}
